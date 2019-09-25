@@ -5,7 +5,7 @@ public class Search {
     public static void main(String[] args) throws IOException {
 
         InputStreamReader reader = new InputStreamReader(
-                new FileInputStream("C:\\Users\\srna\\Desktop\\QAtest\\QAtest.txt"), "UTF8");
+                new FileInputStream("..\\QAtest.txt"), "UTF8");
 
         int countStrings = 0;
         int countLatin = 0;
